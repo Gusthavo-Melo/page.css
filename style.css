@@ -1,0 +1,7 @@
+.banner {
+  background: url("img/banner.jpg") center/cover no-repeat;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
