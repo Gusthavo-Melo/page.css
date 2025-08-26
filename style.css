@@ -5,3 +5,25 @@
   flex-direction: column;
   justify-content: center;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex 1;
+}
+
+footer {
+  background: #d35400;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
